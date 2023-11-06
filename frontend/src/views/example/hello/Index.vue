@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     test () {
-      // 
+      //
     },
   }
 };
@@ -80,4 +80,3 @@ html:not(.dark) .accent,
   transition-duration: 0.2s;
 }
 </style>
-  

@@ -39,7 +39,7 @@ class Index extends Application {
 
   /**
    * before app close
-   */  
+   */
   async beforeClose () {
     // do some things
 

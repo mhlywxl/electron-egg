@@ -55,7 +55,7 @@ module.exports = {
 
   /**
    * 加密
-   */  
+   */
   encrypt: {
     type: 'confusion',
     files: [
@@ -67,7 +67,7 @@ module.exports = {
     ],
     fileExt: ['.js'],
     confusionOptions: {
-      compact: true,      
+      compact: true,
       stringArray: true,
       stringArrayEncoding: ['none'],
       deadCodeInjection: false,
@@ -94,5 +94,5 @@ module.exports = {
       cmd: 'npm',
       args: ['-v'],
     },
-  },  
+  },
 };

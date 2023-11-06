@@ -9,15 +9,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "element-plus": "^2.4.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
+    "@iconify-json/ep": "^1.1.12",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/compiler-sfc": "^3.2.33",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "terser": "^5.19.1",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-icons": "^0.17.1",
+    "unplugin-vue-components": "^0.25.2",
     "vite": "^4.4.4"
   }
 }

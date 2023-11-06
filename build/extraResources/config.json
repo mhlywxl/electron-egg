@@ -1,0 +1,26 @@
+{
+  "test_data": [],
+  "cache": {
+    "addons": {
+      "tabs": {
+        "enable": true,
+        "tabItemCount": 3,
+        "DEV": "development",
+        "startPage": "http://hubon.cn/kingbes-std/",
+        "blankPage": "",
+        "APP_HOME_URL": "undefined/index.html",
+        "TAB_BAR_VIEW": "tabBar",
+        "DARK_WIN_COLOUR": "#000",
+        "LIGHT_WIN_COLOUR": "#FFF",
+        "MIN_WIN_HEIGHT": 600,
+        "MIN_WIN_WIDTH": 800,
+        "MACOS": "darwin",
+        "TITLE_BAR_OVERLAY_COLOUR": "#0f172a",
+        "TAB_BAR_HEIGHT": 40,
+        "MIN_LOG_LEVEL": "info",
+        "APP_SCHEME": "app",
+        "WAIT_FOR_BEFORE_UNLOAD": true
+      }
+    }
+  }
+}
