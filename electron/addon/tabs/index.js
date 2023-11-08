@@ -461,7 +461,8 @@ class TabsAddon {
   constructor() {
     let configPath = ''
     if (app.isPackaged) {
-      configPath = path.join(app.getAppPath(), "resources", "extraResources", "config.json")
+      configPath = path.join(process.cwd(), '/extraResources', 'config.json')
+      // configPath = path.join(path.dirname(app.getPath('exe')), "config.json")
     } else {
       configPath = path.join(app.getAppPath(), "build", "extraResources", "config.json")
     }
@@ -620,10 +621,12 @@ class TabsAddon {
       // console.log(event, data)
       switch (data.action) {
         case 'show': {
-          const { height, width } = screen.getPrimaryDisplay().workAreaSize;
+          const content = tabbedWin.win.getContentSize();
+          const position = tabbedWin.win.getPosition();
           topMenu = new BrowserWindow({
             parent: tabbedWin.win,
-            width: width, height: height,
+            width: content[0], height: content[1],
+            x: position[0], y: position[1],
             transparent: true,
             frame: false,
             // 其他窗口选项...

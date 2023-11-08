@@ -10,7 +10,7 @@
             width: 100%;
             height: 100%;
             /*background-color: transparent;*/
-            background-color: rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.01);
             z-index: 9997;
         }
         #overlay-content{
@@ -45,7 +45,7 @@
       document.addEventListener('DOMContentLoaded', function () {
         const overlay = document.getElementById('overlay');
         // alert(overlay.style.width + " " + overlay.style.height)
-        overlay.addEventListener('click', function () {
+        overlay.addEventListener('mousedown', function () {
           window.close(); // 关闭当前窗口
         });
 

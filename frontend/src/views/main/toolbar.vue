@@ -127,7 +127,7 @@ const closeWindow = () => {
 
 const showMenu = (e) => {
 	console.log(e)
-	ipc.send('topMenu', {action: 'show', x: e.screenX, y: e.screenY})
+	ipc.send('topMenu', {action: 'show', x: e.clientX, y: e.clientY})
 }
 
 onMounted(() => {

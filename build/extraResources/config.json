@@ -4,7 +4,7 @@
     "addons": {
       "tabs": {
         "enable": true,
-        "tabItemCount": 3,
+        "tabItemCount": 1,
         "DEV": "development",
         "startPage": "http://hubon.cn/kingbes-std/",
         "blankPage": "",
